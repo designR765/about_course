@@ -38,24 +38,32 @@ p {
         width: 80%;
         margin-top: 10px auto;
     }
-
+    
     .operator {
         display: block;
-        margin:-top 10px;
-        margin-left: 50px;
+        margin: 15px  0px  20px 55px; 
     }
 
     .lessons {
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         flex-wrap: wrap;
         width: 100%;
     }
 
     .lessons p {
-        width: 30%;
+        width: 40%;
+        font-size:  13px;
         font-weight: bold;
-        text-align: center;
+        text-align: left;
+    }
+
+    .lessons p span {
+        font-weight: normal;
+    }
+
+    .lessons p:last-child {
+        margin-top:  20px;
     }
 
 }

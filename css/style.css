@@ -12,28 +12,23 @@ body {
 
 /* BROWSER */
 
-@media (max-width: 830px) and (min-width: 375px) {
+@media (max-width: 1400px) and (min-width: 830px) {
     .wrapper {
         box-sizing: border;
-        padding-left: 72px;
-        padding-right: 86px;
+        padding-left: 124px;
+        padding-right: 150px;
     }
 
     h1 {
-        margin-top: 56px;
-        font: 32px 'Roboto Slab', serif;
+        margin-top: 91px;
+        font: 55px 'Roboto Slab', serif;
         font-weight: 700;
-    }
-
-    p {
-        font-size: 14px;
-        line-height: 18px;
     }
 
     .main {
         display: flex;
         margin: 15px auto;
-        justify-content:  space-between;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -41,12 +36,20 @@ body {
         width: 80%;
         margin-top: 10px;
         margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 36px;
     }
 
     .operator {
         display: block;
-        width: 181.86px;
-        height: 182.44px;
+        width: 373px;
+        height: 366px;
+    }
+
+    .producer {
+        display: block;
+        width: 232px;
+        height: 214px;
     }
 
     .lessons {
@@ -93,7 +96,7 @@ body {
     .main {
         display: flex;
         margin: 15px auto;
-        justify-content:  space-between;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -109,6 +112,10 @@ body {
         height: 182.44px;
     }
 
+    .producer {
+        display: none;
+    }
+
     .lessons {
         display: flex;
         justify-content: left;
@@ -118,7 +125,7 @@ body {
 
     .lessons p {
         width: 25%;
-        font-size: 13px;
+        font-size: 25px;
         font-weight: bold;
         text-align: left;
     }
@@ -161,6 +168,10 @@ body {
     .operator {
         display: block;
         margin: 0px 0px 20px 55px;
+    }
+
+    .producer {
+        display: none;
     }
 
     .lessons {

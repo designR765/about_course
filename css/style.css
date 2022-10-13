@@ -10,24 +10,142 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font: 26px 'Roboto Slab', serif;
-    font-weight: 700;
-}
+/* BROWSER */
 
-p {
-    font-size: 12px;
-    line-height: 18px;
-}
-
-@media (max-width: 375px) {
+@media (max-width: 830px) and (min-width: 375px) {
     .wrapper {
-        box-sizing:  border;
-       padding-left: 36px;
+        box-sizing: border;
+        padding-left: 72px;
+        padding-right: 86px;
     }
 
     h1 {
         margin-top: 56px;
+        font: 32px 'Roboto Slab', serif;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .main {
+        display: flex;
+        margin: 15px auto;
+        justify-content:  space-between;
+        align-items: center;
+    }
+
+    .main p {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .operator {
+        display: block;
+        width: 181.86px;
+        height: 182.44px;
+    }
+
+    .lessons {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .lessons p {
+        width: 25%;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .lessons p span {
+        font-weight: normal;
+    }
+
+}
+
+
+/* TABLET */
+
+@media (max-width: 830px) and (min-width: 375px) {
+    .wrapper {
+        box-sizing: border;
+        padding-left: 72px;
+        padding-right: 86px;
+    }
+
+    h1 {
+        margin-top: 56px;
+        font: 32px 'Roboto Slab', serif;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .main {
+        display: flex;
+        margin: 15px auto;
+        justify-content:  space-between;
+        align-items: center;
+    }
+
+    .main p {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .operator {
+        display: block;
+        width: 181.86px;
+        height: 182.44px;
+    }
+
+    .lessons {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .lessons p {
+        width: 25%;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .lessons p span {
+        font-weight: normal;
+    }
+
+}
+
+/* MOBILE PHONE*/
+
+@media (max-width: 375px) {
+    .wrapper {
+        box-sizing: border;
+        padding-left: 36px;
+    }
+
+    h1 {
+        font: 26px 'Roboto Slab', serif;
+        font-weight: 700;
+        margin-top: 56px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 18px;
     }
 
     .articles {
@@ -36,12 +154,13 @@ p {
 
     .articles p {
         width: 80%;
-        margin-top: 10px auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
-    
+
     .operator {
         display: block;
-        margin: 15px  0px  20px 55px; 
+        margin: 0px 0px 20px 55px;
     }
 
     .lessons {
@@ -53,7 +172,7 @@ p {
 
     .lessons p {
         width: 40%;
-        font-size:  13px;
+        font-size: 13px;
         font-weight: bold;
         text-align: left;
     }
@@ -63,7 +182,7 @@ p {
     }
 
     .lessons p:last-child {
-        margin-top:  20px;
+        margin-top: 20px;
     }
 
 }

@@ -12,7 +12,7 @@ body {
 
 /* BROWSER */
 
-@media (max-width: 1400px) and (min-width: 830px) {
+@media (max-width: 1400px) and (min-width: 831px) {
     .wrapper {
         box-sizing: border;
         padding-left: 124px;

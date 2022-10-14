@@ -78,7 +78,7 @@ body {
 
 /* TABLET */
 
-@media (max-width: 830px) and (min-width: 375px) {
+@media (max-width: 830px) and (min-width: 376px) {
     .wrapper {
         box-sizing: border;
         padding-left: 72px;
@@ -129,7 +129,7 @@ body {
 
     .lessons p {
         width: 25%;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold;
         text-align: left;
     }
@@ -159,6 +159,12 @@ body {
         line-height: 18px;
     }
 
+    .main p {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
     .articles {
         margin: 15px auto;
     }
@@ -172,6 +178,8 @@ body {
     .operator {
         display: block;
         margin: 0px 0px 20px 55px;
+        width: 146px;
+        height: 146px;
     }
 
     .producer {
